@@ -1,0 +1,9 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="zoho.com">
+<md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accounts.zoho.com/logout/samlsp/825140777"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accounts.zoho.com/signin/samlsp/825140777" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://accounts.zoho.com/signin/samlsp/825140777" index="1"/>
+</md:SPSSODescriptor>
+</md:EntityDescriptor>
